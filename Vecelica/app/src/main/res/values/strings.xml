@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Веселиться</string>
+    <string name="start">Играть</string>
+    <string name="Rools0">Правила очень простые:</string>
+    <string name="Rools1">1) Ты должен будешь угадывать загаданное слово (тема выбирается заранее, доступно 3 темы);</string>
+    <string name="Rools2">2) Нажимай на кнопочки чтобы хоть как-то попасть в загаданное слово;</string>
+    <string name="Rools3">3) У тебя есть 6 попыток, чтоб отгадать слово, иначе повесят твоего персонажа (хе-хе);    :)</string>
+    <string name="Rools4">4) Не забудь ПОВЕСЕЛИЦА :)</string>
+    <string name="Chose1">Дайте имя персонажу</string>
+    <string name="Chose2">Нужно выбрать тему, хорошенько подумай</string>
+</resources>

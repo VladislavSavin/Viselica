@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tetr"
+    tools:context=".ChoseTem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="dp"
+        tools:layout_editor_absoluteY="dp">
+
+        <TextView
+            android:id="@+id/textName1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="030sp"
+            android:text="@string/Chose2"
+            android:textAlignment="center"
+            android:textColor="@color/most"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/town"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="200sp"
+            android:layout_marginRight="70sp"
+            android:background="@color/most"
+            android:text="Города" />
+
+        <Button
+            android:id="@+id/dogs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="70sp"
+            android:background="@color/most"
+            android:text="Растения" />
+
+        <Button
+            android:id="@+id/flouwers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="70sp"
+            android:background="@color/most"
+            android:text="Животные" />
+
+        <Button
+            android:id="@+id/rand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="70sp"
+            android:background="@color/most"
+            android:text="?" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
